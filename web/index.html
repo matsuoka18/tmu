@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kibaco ショートカットリンクサイト</title>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+      <div class="b1" id="b1">
+        <h1>資料</h1>
+        <div class="bt" onclick="jump('hQ9MT3')">
+            <p class="p1" id="p1">Practical English  Ⅲ</p>
+        </div>
+        <div class="bt" onclick="jump('2KM9Xh')">
+            <p class="p1" id="p1">基礎振動工学</p>
+        </div>
+        <div class="bt" onclick="jump('CzAvel')">
+            <p class="p1" id="p1">熱力学1</p>
+        </div>
+        <div class="bt" onclick="jump('Igsivs')">
+            <p class="p1" id="p1">専門基礎物理1a</p>
+        </div>
+        <div class="bt" onclick="jump('7H888e')">
+            <p class="p1" id="p1">解析入門1d</p>
+        </div>
+        <div class="bt" onclick="jump('Q8WZ6b')">
+            <p class="p1" id="p1">離散数学入門b</p>
+        </div>
+        <div class="bt" onclick="jump('HyD8RP')">
+            <p class="p1" id="p1">身体運動演習</p>
+        </div>
+        <div class="bt" onclick="jump('d8Flx4')">
+            <p class="p1" id="p1">航空宇宙材料学</p>
+        </div>
+        <div class="bt" onclick="jump('SrkUMW')">
+            <p class="p1" id="p1">材料力学2</p>
+        </div>
+        <div class="bt" onclick="jump('bxTyCi')">
+            <p class="p1" id="p1">流体力学1</p>
+        </div>
+      </div>
+      <style>
+        body{
+            margin: 0;
+            padding:0;
+            font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS P Gothic", "Osaka", "ＭＳ ゴシック", Verdana, Arial, Helvetica, Gothic, sans-serif;
+
+        }
+        h1{
+
+            text-align:center;
+            width: 10vw;
+            color:#15597e;
+            border-left:10px solid #15597e;
+        }
+        .b1{
+            position: relative;
+            left:5vw;
+            width: 90vw;
+        }
+        .b1 .bt{
+            padding-left:10px;
+            padding-right:10px;
+            padding-top:5px;
+            padding-bottom:5px;
+            margin:10px;
+            border:1px solid #15597e;
+            color:#15597e;
+            font-size:12.5px;
+            display: inline-block;
+            transition: background-color 0.2s linear, box-shadow 0.2s linear, border-bottom 0.2s linear;
+            
+            /*transition: box-shadow 0.2s linear;*/
+            
+            box-sizing: border-box;
+            border-bottom: 7.5px solid #15597e;
+            box-shadow: 3px 3px 1px 1px #15597e2c;
+        }
+        .b1 .bt:hover{
+            background-color: #15597e;
+            color: white;
+            border-bottom: 7.5px solid #2ca3e2; /*268fc7*/
+            box-shadow: 5px 5px 1px 1px #15597e92;
+            
+        }
+      </style>
+      <script>
+        function jump(text){
+            var url = 'https://kibaco.tmu.ac.jp/x/'+text;
+            window.open(url)
+        }
+      </script>
+    </body>
+</html>
+<!--第一版　2026/4/7-->
